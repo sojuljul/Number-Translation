@@ -1,0 +1,10 @@
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\bin\Debug\MyTestForm.exe.config
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\bin\Debug\MyTestForm.exe
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\bin\Debug\MyTestForm.pdb
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.csprojAssemblyReference.cache
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.Properties.Resources.resources
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.csproj.GenerateResource.cache
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.csproj.CoreCompileInputs.cache
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.exe
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.pdb
+C:\Users\JJ\source\repos\MyTestForm\MyTestForm\obj\Debug\MyTestForm.Form1.resources
