@@ -271,6 +271,13 @@ namespace MyTestForm
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            if (textBox1.Text == "")
+            {
+                MessageBox.Show("ERROR: Please enter a number.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             button2.Enabled = true;
             button5.Enabled = true;
 
@@ -459,6 +466,9 @@ namespace MyTestForm
             button5.Enabled = false;
         }
 
-        
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
