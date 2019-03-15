@@ -11,6 +11,8 @@ using System.Windows.Forms;
 using System.Speech.Synthesis;
 using System.Globalization;
 
+using System.Text.RegularExpressions;
+
 namespace MyTestForm
 {
     public partial class Form1 : Form
@@ -274,6 +276,14 @@ namespace MyTestForm
 
             if (textBox1.Text == "")
             {
+                MessageBox.Show("ERROR: Please enter a number.", "Empty Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            Regex reg = new Regex("^[0-9]*$");
+
+            if (!reg.IsMatch(textBox1.Text))
+            {
                 MessageBox.Show("ERROR: Please enter a number.", "Invalid Input", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
@@ -285,6 +295,8 @@ namespace MyTestForm
             int num = Convert.ToInt32(numText);
             string tempSino = "";
             string tempNative = "";
+
+            
 
             if (num >= 0 && num < 10)
             {
@@ -469,6 +481,14 @@ namespace MyTestForm
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 f2 = new Form2();
+            f2.FormClosed += new FormClosedEventHandler(delegate { Close(); });
+            f2.ShowDialog();
         }
     }
 }
