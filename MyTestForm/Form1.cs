@@ -490,5 +490,15 @@ namespace MyTestForm
             f2.FormClosed += new FormClosedEventHandler(delegate { Close(); });
             f2.ShowDialog();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
